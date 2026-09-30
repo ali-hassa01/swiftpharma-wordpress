@@ -1,0 +1,158 @@
+/*** 
+=============================================
+    Partner Style1 Css
+=============================================
+***/
+.partner-style1 {
+    position: relative;
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-top: 80px;
+    margin-top: 83px;
+    z-index: 10;
+}
+
+.brand-content {
+    position: relative;
+    display: block;
+    max-width: 1130px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.single-partner-logo-box {
+    position: relative;
+    display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.single-partner-logo-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 8px;
+    width: 180px;
+    height: 140px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.single-partner-logo-box a img {
+    position: relative;
+    display: inline-block !important;
+    opacity: 1.0;
+    width: auto !important;
+    transition: all 0.2s ease-in-out 0.1s;
+    border-radius: 8px;
+    filter: grayscale(100%);
+}
+
+.single-partner-logo-box:hover a img {
+    filter: grayscale(0%);
+    transition: all 0.8s ease-in-out 0.1s;
+}
+
+
+
+/*** 
+=============================================
+    Partner Style2 Css
+=============================================
+***/
+.partner-style2 {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    padding-top: 117px;
+    z-index: 10;
+}
+
+.partner-style2__sec-title {
+    position: relative;
+    display: block;
+    margin-top: -5px;
+}
+
+.partner-style2__sec-title h2 {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    line-height: 46px;
+}
+
+.partner-style2__sec-title h2:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    right: 0;
+    height: 1px;
+    background-color: #d5d4d3;
+}
+
+.partner-style2__sec-title h2 span {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    background-color: #ffffff;
+    z-index: 2;
+}
+
+
+
+.brand-content-style2 {
+    position: relative;
+    display: block;
+    padding: 27px 0 87px;
+}
+
+.single-partner-logo-box-style2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1;
+}
+
+.single-partner-logo-box-style2:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(255, 255, 255, 0.3);
+    transform: perspective(400px) scaleX(0);
+    transform-origin: center;
+    transition: all 500ms ease;
+    z-index: -1;
+}
+
+.single-partner-logo-box-style2:hover:before {
+    transform: perspective(400px) scaleX(1.0);
+}
+
+.single-partner-logo-box-style2 a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.single-partner-logo-box-style2 a img {
+    position: relative;
+    display: inline-block !important;
+    opacity: 1.0;
+    width: auto !important;
+    transition: all 0.2s ease-in-out 0.1s;
+    mix-blend-mode: screen;
+}
+
+.single-partner-logo-box-style2:hover a img {
+    opacity: 0.90;
+    transition: all 0.8s ease-in-out 0.1s;
+}

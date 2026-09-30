@@ -1,0 +1,20 @@
+# WordPress / local environment
+wp-config.php
+wp-content/uploads/
+.env
+.env.*
+*.log
+*.sql
+*.sql.gz
+.DS_Store
+Thumbs.db
+
+# Local development
+Local Sites/
+node_modules/
+vendor/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp

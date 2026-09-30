@@ -1,0 +1,417 @@
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.bottom-parallax {
+    position: relative;
+    height: 860px;
+    opacity: 0;
+    z-index: -999;
+}
+
+.bottom-parallax .footer-style1 {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 860px;
+}
+
+.parallax-visible .bottom-parallax {
+    opacity: 1;
+    z-index: 1;
+}
+
+
+/*** 
+=============================================
+    Footer style1 Css
+=============================================
+***/
+.footer-style1 {
+    position: relative;
+    display: block;
+    background: var(--thm-black-bg);
+    overflow: hidden;
+    z-index: 3;
+}
+
+.footer-main {
+    position: relative;
+    display: block;
+    padding: 120px 0px 100px;
+}
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+}
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    margin-top: -5px;
+    padding-bottom: 15px;
+}
+
+.single-footer-widget .title::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70px;
+    height: 2px;
+    background: var(--thm-primary-color);
+    content: "";
+}
+
+.single-footer-widget .title h2 {
+    color: #ffffff;
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+
+
+.our-company-info {
+    position: relative;
+    display: block;
+}
+
+.footer-logo-style1 {
+    position: relative;
+    display: block;
+}
+
+.footer-logo-style1 a {
+    position: relative;
+    display: inline-block;
+}
+
+.our-company-info .text {
+    position: relative;
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 25px;
+}
+
+.our-company-info .text p {
+    color: var(--thm-white);
+    margin: 0;
+}
+
+.footer-contact-info-style1 {
+    position: relative;
+    display: block;
+}
+
+.footer-contact-info-style1 ul {
+    position: relative;
+    display: block;
+}
+
+.footer-contact-info-style1 ul li {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 21px;
+}
+
+.footer-contact-info-style1 ul li .icon-box {
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+.footer-contact-info-style1 ul li:first-child .icon-box {
+    top: 6px;
+}
+
+.footer-contact-info-style1 ul li .icon-box span {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-primary-color);
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.footer-contact-info-style1 ul li .text-box {
+    position: relative;
+    display: block;
+}
+
+.footer-contact-info-style1 ul li .text-box p {
+    color: var(--thm-white);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    font-family: var(--thm-font-2);
+}
+
+.footer-contact-info-style1 ul li .text-box p a {
+    color: var(--thm-white);
+}
+
+.footer-contact-info-style1 ul li .text-box p a:hover {
+    color: var(--thm-primary-color);
+}
+
+
+
+.our-company-info .social-links {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.our-company-info .social-links .title-box {
+    position: relative;
+    display: block;
+}
+
+.our-company-info .social-links .title-box h3 {
+    color: var(--thm-white);
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.our-company-info .social-links ul {
+    position: relative;
+    display: block;
+    margin-left: 15px;
+}
+
+.our-company-info .social-links ul li {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.our-company-info .social-links ul li:last-child {
+    margin-right: 0;
+}
+
+.our-company-info .social-links ul li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    border: 0px solid #ffffff;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    transition: background-color 0.9s ease;
+    transition: all 0.9s ease;
+    z-index: 1;
+}
+
+.our-company-info .social-links ul li:hover a {
+    background-color: var(--thm-white);
+}
+
+.our-company-info .social-links ul li a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: var(--thm-white);
+    opacity: 0.10;
+    border-radius: 50%;
+    content: "";
+    z-index: -1;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.our-company-info .social-links ul li:hover a:before {
+    transform: scale(0);
+}
+
+.our-company-info .social-links ul li a:hover {
+    color: var(--thm-primary-color);
+}
+
+
+
+.single-footer-widget--link-box {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-links {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 38px;
+}
+
+.footer-widget-links ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.footer-widget-links ul li {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-links ul li+li {
+    margin-top: 23px;
+}
+
+.footer-widget-links ul li a {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-white);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-family: var(--thm-font);
+    padding-left: 20px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.footer-widget-links ul li a::before {
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    background: var(--thm-white);
+    border-radius: 50%;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    content: "";
+}
+
+.footer-widget-links ul li a:hover {
+    color: var(--thm-secondary-color);
+}
+
+.footer-widget-links ul li a:hover::before {
+    background: var(--thm-secondary-color);
+}
+
+
+
+.footer-bottom {
+    position: relative;
+    display: block;
+    border-top: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 0px 30px;
+}
+
+.footer-bottom .bottom-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright-text {
+    position: relative;
+    display: block;
+}
+
+.copyright-text p {
+    color: var(--thm-white);
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.copyright-text p a {
+    color: #ffffff;
+    transition: all 300ms ease 100ms;
+}
+
+.copyright-text p a:hover {
+    color: var(--thm-primary-color);
+}
+
+
+.footer-bottom__menu {
+    position: relative;
+    display: block;
+}
+
+.footer-bottom__menu ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer-bottom__menu ul li {
+    position: relative;
+    display: block;
+    padding-left: 9px;
+    padding-right: 17px;
+}
+
+.footer-bottom__menu ul li:first-child {
+    padding-left: 0;
+}
+
+.footer-bottom__menu ul li:last-child {
+    padding-right: 0;
+}
+
+.footer-bottom__menu ul li::before {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    width: 8px;
+    height: 1px;
+    background: var(--thm-white);
+    content: "";
+}
+
+.footer-bottom__menu ul li:last-child::before {
+    display: none;
+}
+
+.footer-bottom__menu ul li a {
+    color: var(--thm-white);
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.footer-bottom__menu ul li a:hover {
+    color: var(--thm-primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  End Css  **/

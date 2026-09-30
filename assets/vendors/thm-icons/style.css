@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ppjndo');
+  src:  url('fonts/icomoon.eot?ppjndo#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ppjndo') format('truetype'),
+    url('fonts/icomoon.woff?ppjndo') format('woff'),
+    url('fonts/icomoon.svg?ppjndo#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+  content: "\e900";
+}
+.icon-pin:before {
+  content: "\e901";
+}
+.icon-facebook-app-symbol:before {
+  content: "\e902";
+}
+.icon-linked-in-logo-of-two-letters:before {
+  content: "\e903";
+}
+.icon-twitter:before {
+  content: "\e904";
+}
+.icon-pinterest:before {
+  content: "\e905";
+}
+.icon-down-filled-triangular-arrow:before {
+  content: "\e906";
+}
+.icon-heart:before {
+  content: "\e907";
+}
+.icon-shopping-cart:before {
+  content: "\e908";
+}
+.icon-search-interface-symbol:before {
+  content: "\e909";
+}
+.icon-right-arrow:before {
+  content: "\e90a";
+}
+.icon-left-arrow-1:before {
+  content: "\e90b";
+}
+.icon-right-arrow-1:before {
+  content: "\e90c";
+}
+.icon-up-and-down-arrows:before {
+  content: "\e90d";
+}
+.icon-view:before {
+  content: "\e90e";
+}
+.icon-star:before {
+  content: "\e90f";
+}
+.icon-pointed-star:before {
+  content: "\e910";
+}
+.icon-customer-testimonial:before {
+  content: "\e911";
+}
+.icon-send:before {
+  content: "\e912";
+}
+.icon-fast-delivery:before {
+  content: "\e913";
+}
+.icon-customer-support:before {
+  content: "\e914";
+}
+.icon-secure-payment:before {
+  content: "\e915";
+}
+.icon-delivery-status:before {
+  content: "\e916";
+}
+.icon-quotation:before {
+  content: "\e917";
+}
+.icon-phone-call:before {
+  content: "\e918";
+}
+.icon-user:before {
+  content: "\e919";
+}
+.icon-text:before {
+  content: "\e91a";
+}
+.icon-arrow-up:before {
+  content: "\e91b";
+}
+.icon-home:before {
+  content: "\e91c";
+}
+.icon-check:before {
+  content: "\e91d";
+}
+.icon-open-mail:before {
+  content: "\e91e";
+}
+.icon-location-pin:before {
+  content: "\e91f";
+}
+.icon-list:before {
+  content: "\e920";
+}
+.icon-categories:before {
+  content: "\e921";
+}
+.icon-right:before {
+  content: "\e922";
+}
+.icon-left:before {
+  content: "\e923";
+}
+.icon-filter:before {
+  content: "\e924";
+}
+.icon-increase:before {
+  content: "\e925";
+}
+.icon-verified:before {
+  content: "\e926";
+}
+.icon-plus:before {
+  content: "\e927";
+}
+.icon-plus-1:before {
+  content: "\e928";
+}
+.icon-minus:before {
+  content: "\e929";
+}
+.icon-minus-1:before {
+  content: "\e92a";
+}
+.icon-like:before {
+  content: "\e92b";
+}
+.icon-dislike:before {
+  content: "\e92c";
+}
+.icon-close:before {
+  content: "\e92d";
+}
+.icon-visa .path1:before {
+  content: "\e92e";
+  color: rgb(60, 88, 191);
+}
+.icon-visa .path2:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgb(41, 54, 136);
+}
+.icon-visa .path3:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(60, 88, 191);
+}
+.icon-visa .path4:before {
+  content: "\e931";
+  margin-left: -1em;
+  color: rgb(41, 54, 136);
+}
+.icon-visa .path5:before {
+  content: "\e932";
+  margin-left: -1em;
+  color: rgb(60, 88, 191);
+}
+.icon-visa .path6:before {
+  content: "\e933";
+  margin-left: -1em;
+  color: rgb(41, 54, 136);
+}
+.icon-visa .path7:before {
+  content: "\e934";
+  margin-left: -1em;
+  color: rgb(60, 88, 191);
+}
+.icon-visa .path8:before {
+  content: "\e935";
+  margin-left: -1em;
+  color: rgb(41, 54, 136);
+}
+.icon-visa .path9:before {
+  content: "\e936";
+  margin-left: -1em;
+  color: rgb(255, 188, 0);
+}
+.icon-visa .path10:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(247, 152, 29);
+}
+.icon-visa .path11:before {
+  content: "\e938";
+  margin-left: -1em;
+  color: rgb(237, 124, 0);
+}
+.icon-visa .path12:before {
+  content: "\e939";
+  margin-left: -1em;
+  color: rgb(5, 18, 68);
+}
+.icon-visa .path13:before {
+  content: "\e93a";
+  margin-left: -1em;
+  color: rgb(5, 18, 68);
+}
+.icon-visa .path14:before {
+  content: "\e93b";
+  margin-left: -1em;
+  color: rgb(5, 18, 68);
+}
+.icon-visa .path15:before {
+  content: "\e93c";
+  margin-left: -1em;
+  color: rgb(5, 18, 68);
+}
+.icon-email:before {
+  content: "\e93d";
+}
+.icon-instagran:before {
+  content: "\e93e";
+}
+.icon-menu1:before {
+  content: "\e93f";
+}
+.icon-phone:before {
+  content: "\e940";
+}

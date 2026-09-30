@@ -1,0 +1,258 @@
+/* ============================
+   Medshop WooCommerce Custom Styling
+   ============================ */
+
+:root {
+    --medshop-accent: var(--theme-color, #ee3b3b);
+}
+
+/* ---- General Page Spacing ---- */
+.woocommerce-page .container,
+.woocommerce-page.woocommerce {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ---- Shop Page: Product Grid ---- */
+.woocommerce ul.products {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+@media (max-width: 992px) {
+    .woocommerce ul.products { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 576px) {
+    .woocommerce ul.products { grid-template-columns: 1fr; }
+}
+
+.woocommerce ul.products li.product {
+    text-align: center;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    transition: box-shadow .3s ease, transform .3s ease;
+    float: none !important;
+    width: auto !important;
+    margin: 0 !important;
+    position: relative;
+}
+
+.woocommerce ul.products li.product:hover {
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transform: translateY(-5px);
+}
+
+.woocommerce ul.products li.product img {
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a2b3c;
+    margin: 10px 0;
+}
+
+.woocommerce ul.products li.product .price {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--medshop-accent);
+    margin-bottom: 15px;
+}
+
+.woocommerce ul.products li.product .price del {
+    color: #999;
+    font-weight: 400;
+    margin-right: 8px;
+}
+
+.woocommerce span.onsale {
+    background: var(--medshop-accent) !important;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 600;
+    min-height: 40px;
+    min-width: 40px;
+    line-height: 40px;
+    top: 10px;
+    left: 10px;
+}
+
+/* ---- Buttons (Add to Cart, Checkout, etc.) ---- */
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce #respond input#submit,
+.woocommerce-page a.button,
+.woocommerce-page button.button {
+    background: var(--medshop-accent) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 12px 28px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    transition: opacity .3s ease;
+}
+
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+    opacity: 0.85;
+    color: #fff !important;
+}
+
+/* ---- Sorting / Result Count Bar ---- */
+.woocommerce-ordering select,
+.woocommerce-result-count {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.woocommerce .woocommerce-ordering,
+.woocommerce .woocommerce-result-count {
+    margin-bottom: 25px;
+}
+
+/* ---- Single Product Page ---- */
+.woocommerce div.product .product_title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a2b3c;
+}
+
+.woocommerce div.product p.price,
+.woocommerce div.product span.price {
+    color: var(--medshop-accent);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.woocommerce div.product .woocommerce-product-details__short-description {
+    color: #666;
+    line-height: 1.7;
+}
+
+.woocommerce div.product form.cart .quantity input {
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* ---- Cart Page ---- */
+.woocommerce table.shop_table {
+    border: none;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.woocommerce table.shop_table th {
+    background: #1a2b3c;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+}
+
+.woocommerce table.shop_table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.woocommerce-cart-form .quantity input {
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    text-align: center;
+    width: 60px;
+}
+
+.cart-collaterals .cart_totals {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.cart-collaterals .cart_totals h2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* ---- Checkout Page ---- */
+.woocommerce-checkout input.input-text,
+.woocommerce-checkout select,
+.woocommerce-checkout textarea {
+    padding: 12px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+}
+
+.woocommerce-checkout #order_review {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.woocommerce-checkout .form-row label {
+    font-weight: 600;
+    color: #1a2b3c;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* ---- My Account Page ---- */
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+    background: #f8f9fa;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+    border-bottom: 1px solid #eee;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+    display: block;
+    padding: 14px 20px;
+    color: #1a2b3c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active a,
+.woocommerce-MyAccount-navigation ul li a:hover {
+    background: var(--medshop-accent);
+    color: #fff;
+}
+
+.woocommerce-form-login input.input-text,
+.woocommerce-form-register input.input-text {
+    padding: 12px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 6px !important;
+    width: 100% !important;
+    margin-bottom: 15px;
+}
+
+/* ---- Breadcrumb spacing fix ---- */
+.woocommerce-breadcrumb {
+    margin-bottom: 20px;
+    color: #888;
+}

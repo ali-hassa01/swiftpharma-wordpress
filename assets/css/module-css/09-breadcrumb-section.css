@@ -1,0 +1,126 @@
+/*** 
+=============================================
+    Breadcrumb style1
+=============================================
+***/
+.breadcrumb-style1 {
+    overflow: hidden;
+    padding: 150px 0 138px;
+    background: var(--thm-gray-bg);
+    z-index: 10;
+}
+
+.breadcrumb-style1__img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.breadcrumb-style1 .shape1 {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    z-index: -1;
+}
+
+.breadcrumb-style1 .shape2 {
+    position: absolute;
+    top: 50px;
+    right: -25px;
+    z-index: 1;
+}
+
+.breadcrumb-style1 .shape3 {
+    position: absolute;
+    top: 102px;
+    right: 110px;
+    z-index: -1;
+}
+
+.breadcrumb-style1 .inner-content {
+    position: relative;
+    display: block;
+}
+
+.breadcrumb-style1 .title {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
+.breadcrumb-style1 .title h2 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1em;
+    text-transform: capitalize;
+}
+
+.breadcrumb-menu {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 23px;
+    z-index: 1;
+}
+
+.breadcrumb-menu ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.breadcrumb-menu ul li {
+    position: relative;
+    display: block;
+    color: var(--thm-black);
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-right: 20px;
+    margin-right: 17px;
+    font-family: var(--thm-font-2);
+}
+
+.breadcrumb-menu ul li:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    right: 0px;
+    bottom: 11px;
+    width: 2px;
+    background: var(--thm-black);
+    transform: rotate(20deg);
+}
+
+.breadcrumb-menu ul li:last-child:before {
+    display: none;
+}
+
+.breadcrumb-menu ul li:last-child {
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.breadcrumb-menu ul li a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.breadcrumb-menu ul li a span {
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+    line-height: 25px;
+    padding-right: 3px;
+    top: 1px;
+}
+
+.breadcrumb-menu ul li:hover a,
+.breadcrumb-menu ul li.active {
+    color: var(--thm-secondary-color);
+}
