@@ -4,7 +4,7 @@ A WordPress website developed and customized for **SwiftPharma**. The project wa
 
 ## Live Website
 
-[View SwiftPharma Website](https://spr.ikjimpex.com/)
+[View SwiftPharma Website](https://swiftpharmarx.com/)
 
 ## Project Overview
 
